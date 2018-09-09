@@ -5,14 +5,24 @@
  */
 
 
+
+let x = 10
+let y = 3.2
+let multipliedAsIntegers = Int(y) * x
+print(multipliedAsIntegers)
+
 /*:
  Create a constant `multipliedAsDoubles` equal to `x` times `y`, but this time convert the `Int` to a `Double` in the expression. Print the result.
  */
 
 
+let multipliedDoubles = Double(x) * y
+print(multipliedDoubles)
 /*:
  Are the values of `multipliedAsIntegers` and `multipliedAsDoubles` different? Print a statement to the console explaining why.
  */
 
+
+print("Yes the value is diffrent, because multipliedAsIntegers the all numbers were as Int. However in multipliedDouble we calculated as Double which mean the value will be more bigger")
 
 //: [Previous](@previous)  |  page 7 of 8  |  [Next: App Exercise - Converting Types](@next)

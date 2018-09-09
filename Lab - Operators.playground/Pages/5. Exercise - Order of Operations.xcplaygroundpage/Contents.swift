@@ -5,9 +5,12 @@
  */
 
 
+print(20)
+print(10 + 2 * 5)
 /*:
  In a separate `print` statement, add in the necessary parentheses so that addition takes place before multiplication.
  */
+
 
 
 /*:
@@ -15,6 +18,8 @@
  */
 
 
+print(33)
+print(4*9-6/2)
 /*:
  In a separate `print` statement, add in the necessary parentheses so that the subtraction is prioritized over the multiplication and division.
  */

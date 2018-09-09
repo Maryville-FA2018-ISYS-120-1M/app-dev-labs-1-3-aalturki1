@@ -9,6 +9,11 @@
  */
 
 
+
+let steps = 5000
+let goal = 10000
+let percentOfGoal = Double(steps)/Double(goal)
+
 /*:
  
  _Copyright © 2017 Apple Inc._
