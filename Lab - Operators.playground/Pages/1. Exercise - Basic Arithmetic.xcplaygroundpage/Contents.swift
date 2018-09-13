@@ -5,18 +5,20 @@
  */
  
 
+// SU edits
+
 let width = 10
 let heighst = 20
 let area = width * heighst
-print(200)
+print(200) // print(area)
 
 /*:
  You decide that you'll divide your shed into two rooms. You want to know if dividing it equally will leave enough room for some of your larger storage items. Create a `roomArea` constant that is the result of dividing `area` in half. Print out the result.
  */
 
 
-let roomArea = 200/2
-print(100)
+let roomArea = 200/2 // let roomArea = area / 2
+print(100) // print(roomArea)
 
 
 
@@ -32,22 +34,22 @@ print(perimeter)
  Print what you would expect the result of integer division of 10 divided by 3 to be. Create a constant, `integerDivisionResult` that is the result of 10 divided by 3, and print the value.
  */
 
+// print(3)
 
 let integerDivisionResult = 10/3
 print(integerDivisionResult)
+
 
 /*:
  Now create two constants, `double10` and `double3`, set to 10 and 3, and declare their types as `Double` values. Declare a final constant `divisionResult` equal to the result of `double10` divided by `double3`. Print the value of `divisionResult`. How does this differ from the value when using integer division?
  */
 
 
-
-let double10 = 10.00
-let double3 = 3.00
-let divisionResult = 10.00/3.00
+let double10 = 10.00 // let double10: Double = 10
+let double3 = 3.00 // let double3: Double = 3
+let divisionResult = 10.00/3.00 // let divisionResult = double10 / double3
 print(divisionResult)
 print("when we use Int value the result rounded down to the nerest whole number but when we use double value it give us a value with decimal number")
-
 
 /*:
  Given the value pi (3.1415927), create a `radius` constant with a value of 5.0, then calculate the diameter and circumference of the circle using the following equations, and print the results:
@@ -68,9 +70,8 @@ let y = 53
 
 let radius = 5.0
 let diameter = 2*radius
-print(10)
+print(10) // print(diameter)
 let circumference = 2*pi*radius
 print(circumference)
-
 
 //: page 1 of 8  |  [Next: App Exercise - Fitness Calculations](@next)
